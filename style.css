@@ -10,14 +10,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #63898C;
+    background-color: #FF0000; /* Red background color for the body */
 }
 
 header {
     font-size: 5vmin;
-    color: #015366;
+    color: #FF0000; /* Red text color for the header */
     letter-spacing: 1vmin;
-    background-color: #A7D1D2;
+    background-color: #FF0000; /* Red background color for the header */
     border: 0.5vmin solid #033540;
     padding: 1vmin 2vmin;
     margin-bottom: 4vmin;
@@ -27,7 +27,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #b0d3d4;
+    background-color: #FF0000; /* Red background color for the main section */
     border: 5px outset #033540;
 }
 
@@ -44,14 +44,14 @@ nav {
     height: 48px;
     width: 48px;
     border: 2px solid #033540;
-    background-color: #E0F4F5;
+    background-color: #FF0000; /* Red background color for the smiley */
 }
 
 #timer {
     font-size: 3vmin;
     color: #015366;
     letter-spacing: .5vmin;
-    background-color: #E0F4F5;
+    background-color: #FF0000; /* Red background color for the timer */
     border: 0.3vmin solid #033540;
     padding: 0 .7vmin;
 }
@@ -67,15 +67,39 @@ nav {
 }
 
 #board > img {
-    background-color: #E0F4F5;
+    background-color: #FF0000; /* Red background color for board images */
     position: relative;
     height: 32px; 
     width: 32px;
 }
 
+#high-score-table {
+    border: 5px solid #033540;
+    background-color: #FF0000; /* Red background color for the high score table */
+    margin-top: 3vmin;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3vmin;
+    color: #015366;
+    margin-top: 1vmin;
+    margin-bottom: 0;
+}
+
+ol {
+    width: 100%;
+    text-align: left;
+}
+
 .covers {
     border: 3px outset #033540;
-    background-color: #E0F4F5;
+    background-color: #FF0000; /* Red background color for covers */
     height: 32px; 
     width: 32px;
     position: absolute;
